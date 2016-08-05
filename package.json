@@ -1,7 +1,6 @@
 {
-  "name": "dino",
+  "name": "github_api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,5 +19,15 @@
     "gulp-util": "^3.0.7",
     "jshint": "^2.9.2",
     "vinyl-source-stream": "^1.1.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berausch/js-node-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/berausch/js-node-template/issues"
+  },
+  "homepage": "https://github.com/berausch/js-node-template#readme",
+  "description": ""
 }
