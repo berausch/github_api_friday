@@ -1,3 +1,6 @@
+
+
+
 #outputArea{
   display: none;
 }
@@ -14,7 +17,7 @@ img {
 }
 
 #outputRight {
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
 }
 .container {
@@ -22,6 +25,13 @@ img {
   background-color: #DEEFF5;
 
 }
+
+.space {
+  padding-top: 25px;
+}
+
+
+
 
 .repoOutputLeft {
   text-align: left;
@@ -39,4 +49,8 @@ img {
 
 #outputBelow {
   text-align: left;
+}
+
+.bold {
+  font-weight: bold;
 }
