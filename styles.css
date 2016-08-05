@@ -35,3 +35,8 @@ img {
   border-width: 5px;
   border-style: solid;
 }
+
+
+#outputBelow {
+  text-align: left;
+}

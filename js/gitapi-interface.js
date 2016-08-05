@@ -2,7 +2,6 @@ var allRepos = [];
 exports.getRepos = function(user, apiKey){
   $.get('https://api.github.com/users/' + user +'?access_token=' + apiKey).then(function(response){
     console.log(response);
-    allRepos.push(response.avatar_url);
     $("#outputArea").show();
     $("#outputLeft").empty().append("<img id='profilePic' src=" + response.avatar_url + ">");
     $("#outputRight").empty().append("<h2>Username: <a href=" + response.html_url + ">" + response.login + "</a></h2>" )
@@ -14,10 +13,13 @@ exports.getRepos = function(user, apiKey){
       var repo = [];
       var name = response2[i].name;
       var link = response2[i].html_url;
-      var createDate = response2[i].created_at;
-      repo.push(name, link, createDate);
-      allRepos.push(repo);
-      $("#output").append('<div class="row"><div class="col-md-3"></div><div class="col-md-3" class="repoOutputLeft"><p><a href=' + link +'>' + name + '</a></div> <div class="col-md-3" class="repoOutputRight">|   '+ createDate + '</p></div><div class="col-md-3"></div></div>');
+      var createDate = response2[i].created_at.slice(0,10);
+      var description = response2[1].description;
+      if(description === "")
+      {
+        description = "N/A";
+      }
+      $("#output").append('<div class="row"><div class="col-md-2"></div><div class="col-md-3" class="repoOutputLeft"><p><a href=' + link +'>' + name + '</a></div> <div class="col-md-2" class="repoOutputMiddle">'+ createDate + '</p></div><div class="col-md-3" class="repoOutputRight">'+ description + '</p></div><div class="col-md-2"></div></div>');
       }
 
     }).fail(function(error){
