@@ -1,0 +1,66 @@
+app.js:10 [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object]0:
+Objectarchive_url: "https://api.github.com/repos/berausch/about-me-pers/{archive_format}{/ref}"
+assignees_url: "https://api.github.com/repos/berausch/about-me-pers/assignees{/user}"
+blobs_url: "https://api.github.com/repos/berausch/about-me-pers/git/blobs{/sha}"branches_url: "https://api.github.com/repos/berausch/about-me-pers/branches{/branch}"
+clone_url: "https://github.com/berausch/about-me-pers.git"
+collaborators_url: "https://api.github.com/repos/berausch/about-me-pers/collaborators{/collaborator}"
+comments_url: "https://api.github.com/repos/berausch/about-me-pers/comments{/number}"
+commits_url: "https://api.github.com/repos/berausch/about-me-pers/commits{/sha}"
+compare_url: "https://api.github.com/repos/berausch/about-me-pers/compare/{base}...{head}"
+contents_url: "https://api.github.com/repos/berausch/about-me-pers/contents/{+path}"
+contributors_url: "https://api.github.com/repos/berausch/about-me-pers/contributors"
+created_at: "2016-03-18T20:40:50Z"
+default_branch: "master"deployments_url: "https://api.github.com/repos/berausch/about-me-pers/deployments"description: ""
+downloads_url: "https://api.github.com/repos/berausch/about-me-pers/downloads"
+events_url: "https://api.github.com/repos/berausch/about-me-pers/events"
+fork: false
+forks: 0
+forks_count: 0
+forks_url: "https://api.github.com/repos/berausch/about-me-pers/forks"
+full_name: "berausch/about-me-pers"
+git_commits_url: "https://api.github.com/repos/berausch/about-me-pers/git/commits{/sha}"
+git_refs_url: "https://api.github.com/repos/berausch/about-me-pers/git/refs{/sha}"
+git_tags_url: "https://api.github.com/repos/berausch/about-me-pers/git/tags{/sha}"
+git_url: "git://github.com/berausch/about-me-pers.git"
+has_downloads: true
+has_issues: true
+has_pages: true
+has_wiki: true
+homepage: null
+hooks_url: "https://api.github.com/repos/berausch/about-me-pers/hooks"
+html_url: "https://github.com/berausch/about-me-pers"
+id: 54230181
+issue_comment_url: "https://api.github.com/repos/berausch/about-me-pers/issues/comments{/number}"
+issue_events_url: "https://api.github.com/repos/berausch/about-me-pers/issues/events{/number}"
+issues_url: "https://api.github.com/repos/berausch/about-me-pers/issues{/number}"
+keys_url: "https://api.github.com/repos/berausch/about-me-pers/keys{/key_id}"
+labels_url: "https://api.github.com/repos/berausch/about-me-pers/labels{/name}"
+language: "HTML"languages_url: "https://api.github.com/repos/berausch/about-me-pers/languages"
+merges_url: "https://api.github.com/repos/berausch/about-me-pers/merges"
+milestones_url: "https://api.github.com/repos/berausch/about-me-pers/milestones{/number}"
+mirror_url: null
+name: "about-me-pers"
+notifications_url: "https://api.github.com/repos/berausch/about-me-pers/notifications{?since,all,participating}"
+open_issues: 0
+open_issues_count: 0
+owner: Object
+permissions: Object
+private: false
+pulls_url: "https://api.github.com/repos/berausch/about-me-pers/pulls{/number}"
+pushed_at: "2016-03-18T23:54:10Z"
+releases_url: "https://api.github.com/repos/berausch/about-me-pers/releases{/id}"
+size: 492
+ssh_url: "git@github.com:berausch/about-me-pers.git"stargazers_count: 0
+stargazers_url: "https://api.github.com/repos/berausch/about-me-pers/stargazers"
+statuses_url: "https://api.github.com/repos/berausch/about-me-pers/statuses/{sha}"
+subscribers_url: "https://api.github.com/repos/berausch/about-me-pers/subscribers"
+subscription_url: "https://api.github.com/repos/berausch/about-me-pers/subscription"
+svn_url: "https://github.com/berausch/about-me-pers"
+tags_url: "https://api.github.com/repos/berausch/about-me-pers/tags"
+teams_url: "https://api.github.com/repos/berausch/about-me-pers/teams"
+trees_url: "https://api.github.com/repos/berausch/about-me-pers/git/trees{/sha}"
+updated_at: "2016-03-18T20:53:08Z"
+url: "https://api.github.com/repos/berausch/about-me-pers"
+watchers: 0
+watchers_count: 0
+__proto__:
